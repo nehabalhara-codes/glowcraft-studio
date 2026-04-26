@@ -3,284 +3,279 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-  <meta name="description" content="GlowCraft Studio — Our story, craft process, and the artisans behind every handmade luxury jewelry piece."/>
+  <meta name="description" content="GlowCraft Studio — The story, craft process, and artisans behind every handmade luxury jewelry piece."/>
   <title>About — GlowCraft Studio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,600&family=Poppins:wght@200;300;400;500;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,700&family=Poppins:wght@200;300;400;500&family=Cormorant:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 
-<div class="scroll-progress" aria-hidden="true"></div>
-<div class="cursor-dot" aria-hidden="true"></div>
-<div class="cursor-ring" aria-hidden="true"></div>
+<div class="progress-bar" aria-hidden="true"></div>
+<div class="c-dot"  aria-hidden="true"></div>
+<div class="c-ring" aria-hidden="true"></div>
 
-<!-- ═══════════════════════════════════ NAVBAR ═══════════════════════════════════ -->
-<nav class="navbar nav-light" role="navigation" aria-label="Main navigation">
-  <div class="nav-inner">
-    <a href="index.html" class="nav-logo" aria-label="GlowCraft Studio home">Glow<span class="logo-accent">Craft</span></a>
-    <div class="nav-links" role="menubar">
-      <a href="index.html" class="nav-link" role="menuitem">Home</a>
-      <a href="about.html" class="nav-link active" role="menuitem" aria-current="page">About</a>
-      <a href="contact.html" class="nav-link" role="menuitem">Contact</a>
-      <a href="contact.html" class="nav-book"><span>Book Consultation</span></a>
+<!-- ══════════════════ NAVBAR ══════════════════ -->
+<nav class="navbar light" role="navigation" aria-label="Main navigation">
+  <div class="n-inner">
+    <a href="index.html" class="n-logo" aria-label="GlowCraft Studio home">Glow<em>Craft</em></a>
+    <div class="n-links" role="menubar">
+      <a href="index.html" class="n-link" role="menuitem">Home</a>
+      <a href="about.html" class="n-link cur" role="menuitem" aria-current="page">About</a>
+      <a href="contact.html" class="n-link" role="menuitem">Contact</a>
+      <a href="contact.html" class="n-cta"><span>Book Consultation</span></a>
     </div>
-    <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+    <button class="burger" aria-label="Toggle menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
   </div>
 </nav>
 
-<div class="drawer-overlay" aria-hidden="true"></div>
-<div class="mobile-drawer" role="dialog" aria-label="Navigation" aria-modal="true">
-  <a href="index.html" class="drawer-link">Home</a>
-  <a href="about.html" class="drawer-link">About</a>
-  <a href="contact.html" class="drawer-link">Contact</a>
-  <a href="contact.html" class="btn btn-ghost" style="margin-top:12px"><span class="btn-text">Book Consultation</span></a>
-</div>
+<div class="drawer-bg" aria-hidden="true"></div>
+<nav class="nav-drawer" aria-label="Mobile navigation">
+  <a href="index.html" class="d-link">Home</a>
+  <a href="about.html" class="d-link">About</a>
+  <a href="contact.html" class="d-link">Contact</a>
+  <a href="contact.html" class="btn btn-outline" style="margin-top:8px"><span class="btn-text">Book Consultation</span></a>
+</nav>
 
-<!-- ═══════════════════════════════════ PAGE HERO ═══════════════════════════════════ -->
-<section class="page-hero" aria-label="About page hero">
-  <div class="page-hero-bg" style="background-image:url('https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=1800&q=80')" role="img" aria-label="Artisan hands working on jewelry"></div>
-  <div class="page-hero-overlay" aria-hidden="true"></div>
-  <div class="page-hero-content">
-    <span class="page-hero-eyebrow">GlowCraft Studio · Est. 2018</span>
-    <h1 class="page-hero-title">Our Story</h1>
-    <div class="page-hero-bar" aria-hidden="true"></div>
+<!-- ══════════════════ PAGE HERO ══════════════════ -->
+<section class="page-hero" aria-label="About hero">
+  <div class="ph-bg" style="background-image:url('https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=1800&q=85')" role="img" aria-label="Artisan hands working on jewelry"></div>
+  <div class="ph-over" aria-hidden="true"></div>
+  <div class="ph-content">
+    <span class="ph-label">GlowCraft Studio · Est. 2018</span>
+    <h1 class="ph-title">Our Story</h1>
+    <div class="ph-bar" aria-hidden="true"></div>
   </div>
 </section>
 
-<!-- ═══════════════════════════════════ BRAND STORY ═══════════════════════════════════ -->
-<section class="section bg-dark" aria-labelledby="story-heading">
-  <div class="container">
-    <div class="about-story-grid">
+<!-- ══════════════════ BRAND STORY ══════════════════ -->
+<section class="section dark" aria-labelledby="story-h">
+  <div class="wrap">
+    <div class="about-intro-grid">
 
-      <div class="about-sticky" data-reveal="left">
-        <img class="about-img" src="https://images.unsplash.com/photo-1584448097764-374f81551427?w=900&q=80" alt="Priya Mehra working in the GlowCraft studio" loading="lazy"/>
+      <div class="about-sticky" data-r="left">
+        <img class="about-img" src="https://images.unsplash.com/photo-1584448097764-374f81551427?w=900&q=85" alt="Priya Mehra in the GlowCraft studio" loading="lazy"/>
       </div>
 
-      <div class="about-text" data-reveal="right">
-        <span class="eyebrow">The Beginning</span>
-        <h2 class="display-title" id="story-heading">A Workshop,<br>A Dream, A Legacy</h2>
-        <div class="gold-line"></div>
+      <div class="about-text" data-r="right">
+        <span class="label">The Beginning</span>
+        <h2 class="h-display" id="story-h">A Workshop,<br>A Dream,<br><em>A Legacy</em></h2>
+        <div class="rule"></div>
 
         <p>GlowCraft Studio was founded in 2018 by Priya Mehra, a jewelry designer with a background in traditional Indian goldsmithing and contemporary European design. Having trained in both Mumbai and Florence, Priya returned home with a singular vision: to create jewelry that was unmistakably Indian in soul, yet impeccably modern in form.</p>
 
         <p>Her first studio was a 400-square-foot room in Bandra, Mumbai — filled with hand tools, raw gold bars, and an unshakeable belief that handcraft was not a relic of the past, but a living tradition worth preserving. She worked alone for the first two years, selling exclusively through word of mouth and a quiet Instagram presence.</p>
 
-        <p>Today, GlowCraft Studio is a team of eight — each a specialist in their craft. Together, they produce fewer than 500 pieces per year, ensuring that every single creation receives the full attention it deserves. The studio has been featured in Vogue India, Harper's Bazaar, and The Hindu's luxury supplement.</p>
+        <p>Today, GlowCraft Studio is a team of eight — each a specialist in their craft. Together, they produce fewer than 500 pieces per year, ensuring that every single creation receives the full attention it deserves.</p>
 
         <p>We believe jewelry is not decoration — it is identity. It is the ring your grandmother wore to her wedding, the necklace you reach for on your worst days, the earrings you passed down to your daughter. At GlowCraft, we make heirlooms.</p>
 
-        <div class="about-stats-row">
+        <div class="about-kpi">
           <div>
-            <div class="about-stat-num" data-count="6">0</div>
-            <div class="about-stat-lbl">Years of Craft</div>
+            <div class="kpi-n" data-count="6">0</div>
+            <div class="kpi-l">Years of Craft</div>
           </div>
           <div>
-            <div class="about-stat-num" data-count="500">0</div>
-            <div class="about-stat-lbl">Pieces / Year</div>
+            <div class="kpi-n" data-count="500">0</div>
+            <div class="kpi-l">Pieces / Year</div>
           </div>
           <div>
-            <div class="about-stat-num" data-count="8">0</div>
-            <div class="about-stat-lbl">Master Artisans</div>
+            <div class="kpi-n" data-count="8">0</div>
+            <div class="kpi-l">Master Artisans</div>
           </div>
         </div>
       </div>
-
     </div>
   </div>
 </section>
 
-<!-- ═══════════════════════════════════ PROCESS ═══════════════════════════════════ -->
-<section class="section bg-darker" aria-labelledby="process-heading">
-  <div class="container">
-    <div style="text-align:center" data-reveal>
-      <span class="eyebrow" style="justify-content:center">Behind Every Piece</span>
-      <h2 class="display-title" id="process-heading" style="text-align:center">The Making of<br>a GlowCraft Piece</h2>
-      <div class="gold-line center"></div>
-      <p class="section-body" style="margin:0 auto;text-align:center">Each creation follows a sacred four-step process refined across six years of practice.</p>
+<!-- ══════════════════ SECOND SPLIT (reversed) ══════════════════ -->
+<section aria-label="The craft section">
+  <div class="split" style="direction:rtl">
+    <div class="split-img" style="direction:ltr" data-r="right">
+      <img src="https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?w=900&q=85" alt="Close-up of goldsmith tools and metal" loading="lazy"/>
+      <div class="split-img-overlay" style="background:linear-gradient(to left,transparent 60%,var(--dark-2))" aria-hidden="true"></div>
     </div>
+    <div class="split-content rev" style="direction:ltr" data-r="left">
+      <span class="label">The Craft</span>
+      <h2 class="h-display">Made by Hand,<br><em>Finished by Fire</em></h2>
+      <div class="rule"></div>
+      <p class="split-body">Every GlowCraft piece begins life as a sketch on paper — a conversation between intuition and intention. From there it moves to the bench, where metal is cut, filed, shaped, and soldered by hand.</p>
+      <p class="split-body">The firing process — where raw metal meets the torch — is where a piece truly comes alive. Temperature, timing, and touch combine in a process that can only be learned through years of practice. No machine can replicate it.</p>
+      <a href="contact.html" class="btn btn-gold" style="margin-top:8px"><span class="btn-text">Commission a Piece</span></a>
+    </div>
+  </div>
+</section>
 
-    <div class="process-grid">
-      <div class="process-step" data-reveal data-delay="1">
-        <div class="process-num" aria-hidden="true">01</div>
-        <div class="process-connector" aria-hidden="true"></div>
-        <h3 class="process-title">Design & Sketch</h3>
-        <p class="process-body">Every piece begins with a hand-drawn sketch — a conversation between intuition and intention. We refine until the design has a soul.</p>
+<!-- ══════════════════ PROCESS ══════════════════ -->
+<section class="section d2" aria-labelledby="proc-h">
+  <div class="wrap">
+    <div style="text-align:center" data-r="fade">
+      <span class="label" style="justify-content:center">Behind Every Piece</span>
+      <h2 class="h-display" id="proc-h" style="text-align:center">The Making of<br>a GlowCraft Piece</h2>
+      <div class="rule c"></div>
+      <p class="body-text" style="margin:0 auto;text-align:center">Each creation follows a sacred four-step process refined across six years of practice.</p>
+    </div>
+    <div class="process-row">
+      <div class="p-step" data-r="up" data-d="1">
+        <div class="p-num" aria-hidden="true">01</div>
+        <div class="p-conn" aria-hidden="true"></div>
+        <h3 class="p-title">Design & Sketch</h3>
+        <p class="p-body">Every piece begins with a hand-drawn sketch — a conversation between intuition and intention. We refine until the design has a soul.</p>
       </div>
-      <div class="process-step" data-reveal data-delay="2">
-        <div class="process-num" aria-hidden="true">02</div>
-        <div class="process-connector" aria-hidden="true"></div>
-        <h3 class="process-title">Material Selection</h3>
-        <p class="process-body">We personally select each gemstone and assay every batch of gold. No compromises. No shortcuts. Only what belongs in the piece.</p>
+      <div class="p-step" data-r="up" data-d="2">
+        <div class="p-num" aria-hidden="true">02</div>
+        <div class="p-conn" aria-hidden="true"></div>
+        <h3 class="p-title">Material Selection</h3>
+        <p class="p-body">We personally select each gemstone and assay every batch of gold. No compromises. No shortcuts. Only what belongs in the piece.</p>
       </div>
-      <div class="process-step" data-reveal data-delay="3">
-        <div class="process-num" aria-hidden="true">03</div>
-        <div class="process-connector" aria-hidden="true"></div>
-        <h3 class="process-title">Handcrafting</h3>
-        <p class="process-body">Using traditional tools — hammer, file, torch — our artisans breathe life into metal. Each piece takes between 8 to 40 hours to complete.</p>
+      <div class="p-step" data-r="up" data-d="3">
+        <div class="p-num" aria-hidden="true">03</div>
+        <div class="p-conn" aria-hidden="true"></div>
+        <h3 class="p-title">Handcrafting</h3>
+        <p class="p-body">Using traditional tools — hammer, file, torch — our artisans breathe life into metal. Each piece takes between 8 to 40 hours to complete.</p>
       </div>
-      <div class="process-step" data-reveal data-delay="4">
-        <div class="process-num" aria-hidden="true">04</div>
-        <h3 class="process-title">Final Inspection</h3>
-        <p class="process-body">Priya personally inspects and signs off on each piece before it leaves the studio. Our quality standard is singular: perfection.</p>
+      <div class="p-step" data-r="up" data-d="4">
+        <div class="p-num" aria-hidden="true">04</div>
+        <h3 class="p-title">Final Inspection</h3>
+        <p class="p-body">Priya personally inspects and signs off on each piece before it leaves the studio. Our quality standard is singular: perfection.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ═══════════════════════════════════ MISSION ═══════════════════════════════════ -->
-<section class="section bg-dark" aria-labelledby="mission-heading">
-  <div class="container">
-    <div data-reveal>
-      <span class="eyebrow">What We Stand For</span>
-      <h2 class="display-title" id="mission-heading">Our Beliefs</h2>
-      <div class="gold-line"></div>
-      <p class="section-body">We don't just make jewelry. We make meaning.</p>
+<!-- ══════════════════ MISSION ══════════════════ -->
+<section class="section dark" aria-labelledby="mis-h">
+  <div class="wrap">
+    <div data-r="up">
+      <span class="label">What We Stand For</span>
+      <h2 class="h-display" id="mis-h">Our Beliefs</h2>
+      <div class="rule"></div>
+      <p class="body-text">We don't just make jewelry. We make meaning.</p>
     </div>
-
     <div class="mission-grid">
-      <div class="mission-card" data-reveal data-delay="1">
-        <div class="mission-num" aria-hidden="true">01</div>
-        <h3 class="mission-title">Craft Over Volume</h3>
-        <p class="mission-body">We deliberately limit our output. Quality is not a feature — it is the entire point. We will never scale at the cost of soul.</p>
+      <div class="m-card" data-r="up" data-d="1">
+        <div class="m-n" aria-hidden="true">01</div>
+        <h3 class="m-title">Craft Over Volume</h3>
+        <p class="m-body">We deliberately limit our output. Quality is not a feature — it is the entire point. We will never scale at the cost of soul.</p>
       </div>
-      <div class="mission-card" data-reveal data-delay="2">
-        <div class="mission-num" aria-hidden="true">02</div>
-        <h3 class="mission-title">Ethical by Design</h3>
-        <p class="mission-body">Every material we use is ethically sourced. Our gold is responsibly mined, our gemstones are conflict-free, and our waste is zero.</p>
+      <div class="m-card" data-r="up" data-d="2">
+        <div class="m-n" aria-hidden="true">02</div>
+        <h3 class="m-title">Ethical by Design</h3>
+        <p class="m-body">Every material we use is ethically sourced. Our gold is responsibly mined, our gemstones are conflict-free, and our waste is zero.</p>
       </div>
-      <div class="mission-card" data-reveal data-delay="3">
-        <div class="mission-num" aria-hidden="true">03</div>
-        <h3 class="mission-title">Community First</h3>
-        <p class="mission-body">We employ local artisans, pay living wages, and invest in apprenticeship programs to keep India's goldsmith traditions alive.</p>
+      <div class="m-card" data-r="up" data-d="3">
+        <div class="m-n" aria-hidden="true">03</div>
+        <h3 class="m-title">Community First</h3>
+        <p class="m-body">We employ local artisans, pay living wages, and invest in apprenticeship programs to keep India's goldsmith traditions alive.</p>
       </div>
-      <div class="mission-card" data-reveal data-delay="4">
-        <div class="mission-num" aria-hidden="true">04</div>
-        <h3 class="mission-title">Timelessness, Not Trend</h3>
-        <p class="mission-body">We don't design for seasons. Our pieces are meant to be worn for decades, passed down through generations, never out of style.</p>
+      <div class="m-card" data-r="up" data-d="4">
+        <div class="m-n" aria-hidden="true">04</div>
+        <h3 class="m-title">Timelessness, Not Trend</h3>
+        <p class="m-body">We don't design for seasons. Our pieces are meant to be worn for decades, passed down through generations, never out of style.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ═══════════════════════════════════ TESTIMONIAL ═══════════════════════════════════ -->
-<section class="testimonial-section" aria-labelledby="testimonial-heading">
-  <div class="container">
-    <h2 class="sr-only" id="testimonial-heading">Client testimonial</h2>
-    <span class="eyebrow" style="justify-content:center;color:#A8882A" data-reveal>Worn &amp; Loved</span>
-    <blockquote class="testimonial-quote" data-reveal data-delay="1">
+<!-- ══════════════════ TESTIMONIAL ══════════════════ -->
+<section class="testi-section" aria-labelledby="testi-h">
+  <div class="wrap" style="position:relative;z-index:1">
+    <h2 class="sr-only" id="testi-h">Client testimonial</h2>
+    <span class="label" style="justify-content:center;color:#9A7D20" data-r="fade">Worn &amp; Loved</span>
+    <blockquote class="testi-quote" data-r="up" data-d="1">
       The ring Priya made for our engagement is beyond anything I could have imagined. She translated my mother's story into gold. We wept when we first saw it.
     </blockquote>
-    <div class="testimonial-author" data-reveal data-delay="2">
-      <img class="testimonial-avatar" src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=120&q=80" alt="Ananya Kapoor" loading="lazy"/>
+    <div class="testi-author" data-r="up" data-d="2">
+      <img class="testi-avatar" src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=120&q=80" alt="Ananya Kapoor" loading="lazy"/>
       <div>
-        <div class="testimonial-name">Ananya Kapoor</div>
-        <div class="testimonial-role">GlowCraft Client · Mumbai</div>
+        <div class="testi-name">Ananya Kapoor</div>
+        <div class="testi-role">GlowCraft Client · Mumbai</div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ═══════════════════════════════════ TEAM ═══════════════════════════════════ -->
-<section class="section bg-dark" aria-labelledby="team-heading">
-  <div class="container">
-    <div data-reveal>
-      <span class="eyebrow">The Hands Behind the Gold</span>
-      <h2 class="display-title" id="team-heading">Meet Our Artisans</h2>
-      <div class="gold-line"></div>
-      <p class="section-body">Three decades of combined expertise, one shared obsession with perfection.</p>
+<!-- ══════════════════ TEAM ══════════════════ -->
+<section class="section black" aria-labelledby="team-h">
+  <div class="wrap">
+    <div data-r="up">
+      <span class="label">The Hands Behind the Gold</span>
+      <h2 class="h-display" id="team-h">Meet Our Artisans</h2>
+      <div class="rule"></div>
+      <p class="body-text">Three decades of combined expertise, one shared obsession with perfection.</p>
     </div>
-
     <div class="team-grid">
-      <article class="team-card" data-reveal data-delay="1">
-        <div class="team-img-wrap">
-          <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=600&q=80" alt="Priya Mehra, Founder and Lead Designer" loading="lazy"/>
-          <div class="team-overlay" aria-hidden="true"></div>
+      <article class="tm-card" data-r="up" data-d="1">
+        <div class="tm-img">
+          <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=600&q=80" alt="Priya Mehra, Founder" loading="lazy"/>
+          <div class="tm-over" aria-hidden="true"></div>
         </div>
-        <h3 class="team-name">Priya Mehra</h3>
-        <p class="team-role">Founder · Lead Designer</p>
-        <p class="team-bio">Trained in Mumbai and Florence. 14 years of goldsmithing. Believes every piece of jewelry has a story waiting to be told.</p>
+        <h3 class="tm-name">Priya Mehra</h3>
+        <p class="tm-role">Founder · Lead Designer</p>
+        <p class="tm-bio">Trained in Mumbai and Florence. 14 years of goldsmithing. Believes every piece of jewelry has a story waiting to be told.</p>
       </article>
-      <article class="team-card" data-reveal data-delay="2">
-        <div class="team-img-wrap">
+      <article class="tm-card" data-r="up" data-d="2">
+        <div class="tm-img">
           <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80" alt="Rajan Kumar, Master Goldsmith" loading="lazy"/>
-          <div class="team-overlay" aria-hidden="true"></div>
+          <div class="tm-over" aria-hidden="true"></div>
         </div>
-        <h3 class="team-name">Rajan Kumar</h3>
-        <p class="team-role">Master Goldsmith</p>
-        <p class="team-bio">Third-generation artisan from Jaipur. Specialises in filigree and stone setting with precision that must be seen to be believed.</p>
+        <h3 class="tm-name">Rajan Kumar</h3>
+        <p class="tm-role">Master Goldsmith</p>
+        <p class="tm-bio">Third-generation artisan from Jaipur. Specialises in filigree and stone setting with precision that must be seen to be believed.</p>
       </article>
-      <article class="team-card" data-reveal data-delay="3">
-        <div class="team-img-wrap">
+      <article class="tm-card" data-r="up" data-d="3">
+        <div class="tm-img">
           <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600&q=80" alt="Divya Nair, Gemologist" loading="lazy"/>
-          <div class="team-overlay" aria-hidden="true"></div>
+          <div class="tm-over" aria-hidden="true"></div>
         </div>
-        <h3 class="team-name">Divya Nair</h3>
-        <p class="team-role">Gemologist · Sourcing Lead</p>
-        <p class="team-bio">GIA-certified gemologist with a keen eye for stones that transcend the ordinary. She travels across India and Sri Lanka to find them.</p>
+        <h3 class="tm-name">Divya Nair</h3>
+        <p class="tm-role">Gemologist · Sourcing Lead</p>
+        <p class="tm-bio">GIA-certified gemologist with a keen eye for stones that transcend the ordinary. She travels across India and Sri Lanka to find them.</p>
       </article>
     </div>
   </div>
 </section>
 
-<!-- ═══════════════════════════════════ CTA ═══════════════════════════════════ -->
-<div class="cta-banner" aria-labelledby="cta-heading">
-  <div class="container" style="position:relative;z-index:1">
-    <span class="eyebrow cta-eyebrow" style="justify-content:center" data-reveal>Ready to Begin?</span>
-    <h2 class="cta-title" id="cta-heading" data-reveal data-delay="1">Commission Your Piece</h2>
-    <a href="contact.html" class="btn btn-dark" data-reveal data-delay="2">
+<!-- ══════════════════ CTA ══════════════════ -->
+<div class="cta-banner" aria-labelledby="cta-h">
+  <div class="wrap" style="position:relative;z-index:1">
+    <span class="cta-lbl" data-r="fade">Ready to Begin?</span>
+    <h2 class="cta-title" id="cta-h" data-r="up" data-d="1">Commission Your Piece</h2>
+    <a href="contact.html" class="btn btn-invert" data-r="up" data-d="2">
       <span class="btn-text">Start the Conversation</span>
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
     </a>
   </div>
 </div>
 
-<!-- ═══════════════════════════════════ FOOTER ═══════════════════════════════════ -->
+<!-- ══════════════════ FOOTER ══════════════════ -->
 <footer role="contentinfo">
-  <div class="container">
+  <div class="wrap">
     <div class="footer-grid">
       <div>
-        <a href="index.html" class="footer-logo">Glow<span class="logo-accent">Craft</span></a>
-        <p class="footer-desc">Handcrafted luxury jewelry born in Mumbai, worn across the world. Each piece carries the fingerprints of its maker.</p>
-        <div class="footer-socials" aria-label="Social media links">
-          <a href="#" class="footer-social" aria-label="Instagram"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/></svg></a>
-          <a href="#" class="footer-social" aria-label="Pinterest"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.24 2.65 7.86 6.39 9.29-.09-.78-.17-1.98.03-2.82.19-.77 1.26-5.33 1.26-5.33s-.32-.64-.32-1.59c0-1.49.86-2.6 1.93-2.6.91 0 1.35.68 1.35 1.5 0 .91-.58 2.28-.88 3.55-.25 1.06.53 1.92 1.57 1.92 1.88 0 3.15-2.4 3.15-5.24 0-2.16-1.46-3.78-4.1-3.78-2.99 0-4.85 2.23-4.85 4.72 0 .86.25 1.46.64 1.93.18.21.2.3.14.55-.05.17-.15.59-.19.75-.06.25-.25.34-.46.24-1.34-.55-1.96-2.02-1.96-3.67 0-2.73 2.32-6.01 6.93-6.01 3.71 0 6.16 2.69 6.16 5.58 0 3.81-2.11 6.67-5.22 6.67-1.04 0-2.03-.56-2.36-1.21l-.65 2.49c-.24.9-.87 2.03-1.29 2.72C10.68 21.94 11.33 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2z"/></svg></a>
-          <a href="#" class="footer-social" aria-label="Facebook"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+        <a href="index.html" class="f-logo">Glow<em>Craft</em></a>
+        <p class="f-desc">Handcrafted luxury jewelry born in Mumbai, worn across the world. Each piece carries the fingerprints of its maker.</p>
+        <div class="f-socials" aria-label="Social media">
+          <a href="#" class="f-soc" aria-label="Instagram"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/></svg></a>
+          <a href="#" class="f-soc" aria-label="Pinterest"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.24 2.65 7.86 6.39 9.29-.09-.78-.17-1.98.03-2.82.19-.77 1.26-5.33 1.26-5.33s-.32-.64-.32-1.59c0-1.49.86-2.6 1.93-2.6.91 0 1.35.68 1.35 1.5 0 .91-.58 2.28-.88 3.55-.25 1.06.53 1.92 1.57 1.92 1.88 0 3.15-2.4 3.15-5.24 0-2.16-1.46-3.78-4.1-3.78-2.99 0-4.85 2.23-4.85 4.72 0 .86.25 1.46.64 1.93.18.21.2.3.14.55-.05.17-.15.59-.19.75-.06.25-.25.34-.46.24-1.34-.55-1.96-2.02-1.96-3.67 0-2.73 2.32-6.01 6.93-6.01 3.71 0 6.16 2.69 6.16 5.58 0 3.81-2.11 6.67-5.22 6.67-1.04 0-2.03-.56-2.36-1.21l-.65 2.49c-.24.9-.87 2.03-1.29 2.72C10.68 21.94 11.33 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2z"/></svg></a>
+          <a href="#" class="f-soc" aria-label="Facebook"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
         </div>
       </div>
-      <div>
-        <h4 class="footer-col-title">Collections</h4>
-        <nav class="footer-links" aria-label="Collections"><a href="#" class="footer-link">Rings</a><a href="#" class="footer-link">Necklaces</a><a href="#" class="footer-link">Earrings</a><a href="#" class="footer-link">Bracelets</a><a href="#" class="footer-link">Bridal</a></nav>
-      </div>
-      <div>
-        <h4 class="footer-col-title">Studio</h4>
-        <nav class="footer-links" aria-label="Studio pages"><a href="about.html" class="footer-link">Our Story</a><a href="about.html" class="footer-link">The Craft</a><a href="contact.html" class="footer-link">Bespoke Orders</a><a href="#" class="footer-link">Press</a></nav>
-      </div>
-      <div>
-        <h4 class="footer-col-title">Contact</h4>
-        <div class="footer-ci"><div class="footer-ci-lbl">Studio</div><div class="footer-ci-val">14 Gold Street, Bandra West, Mumbai 400050</div></div>
-        <div class="footer-ci"><div class="footer-ci-lbl">Email</div><div class="footer-ci-val">hello@glowcraftstudio.com</div></div>
-        <div class="footer-ci"><div class="footer-ci-lbl">Hours</div><div class="footer-ci-val">Tue–Sat, 11am–7pm</div></div>
-      </div>
+      <div><h4 class="f-col-title">Collections</h4><nav class="f-links" aria-label="Collections"><a href="#" class="f-link">Rings</a><a href="#" class="f-link">Necklaces</a><a href="#" class="f-link">Earrings</a><a href="#" class="f-link">Bracelets</a><a href="#" class="f-link">Bridal</a></nav></div>
+      <div><h4 class="f-col-title">Studio</h4><nav class="f-links" aria-label="Studio"><a href="about.html" class="f-link">Our Story</a><a href="about.html" class="f-link">The Craft</a><a href="contact.html" class="f-link">Bespoke Orders</a><a href="#" class="f-link">Press</a></nav></div>
+      <div><h4 class="f-col-title">Contact</h4><div class="f-ci"><div class="f-ci-l">Studio</div><div class="f-ci-v">14 Gold Street, Bandra West, Mumbai 400050</div></div><div class="f-ci"><div class="f-ci-l">Email</div><div class="f-ci-v">hello@glowcraftstudio.com</div></div></div>
     </div>
-    <div class="footer-bottom">
-      <p class="footer-copy">&copy; 2024 GlowCraft Studio. All rights reserved.</p>
-      <div class="footer-legal"><a href="#">Privacy Policy</a><a href="#">Terms of Service</a></div>
+    <div class="footer-btm">
+      <p class="f-copy">&copy; 2024 GlowCraft Studio. All rights reserved.</p>
+      <div class="f-legal"><a href="#">Privacy</a><a href="#">Terms</a></div>
     </div>
   </div>
 </footer>
 
 <script src="script.js"></script>
-<script>
-  // About: nav scrolls between light and dark
-  const nav = document.querySelector('.navbar');
-  window.addEventListener('scroll', () => {
-    if (window.scrollY > 80) { nav.classList.add('scrolled'); nav.classList.remove('nav-light'); }
-    else { nav.classList.remove('scrolled'); nav.classList.add('nav-light'); }
-  }, { passive: true });
-</script>
 </body>
 </html>
