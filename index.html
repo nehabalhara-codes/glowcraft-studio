@@ -3,430 +3,342 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-  <meta name="description" content="GlowCraft Studio — Luxury handmade jewelry. Each piece is a story, shaped by hand, kissed by fire, worn for life."/>
+  <meta name="description" content="GlowCraft Studio — Ultra-luxury handmade jewelry. Each piece is a story shaped by hand, kissed by fire, worn for life."/>
   <title>GlowCraft Studio — Handmade Luxury Jewelry</title>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,600&family=Poppins:wght@200;300;400;500;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,700&family=Poppins:wght@200;300;400;500&family=Cormorant:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 
-<!-- Scroll Progress -->
-<div class="scroll-progress" aria-hidden="true"></div>
+<div class="progress-bar" aria-hidden="true"></div>
+<div class="c-dot"  aria-hidden="true"></div>
+<div class="c-ring" aria-hidden="true"></div>
 
-<!-- Custom Cursor -->
-<div class="cursor-dot" aria-hidden="true"></div>
-<div class="cursor-ring" aria-hidden="true"></div>
-
-<!-- ═══════════════════════════════════
-     NAVBAR
-═══════════════════════════════════ -->
+<!-- ══════════════════ NAVBAR ══════════════════ -->
 <nav class="navbar" role="navigation" aria-label="Main navigation">
-  <div class="nav-inner">
-    <a href="index.html" class="nav-logo" aria-label="GlowCraft Studio home">
-      Glow<span class="logo-accent">Craft</span>
-    </a>
-    <div class="nav-links" role="menubar">
-      <a href="index.html" class="nav-link" role="menuitem">Home</a>
-      <a href="about.html" class="nav-link" role="menuitem">About</a>
-      <a href="contact.html" class="nav-link" role="menuitem">Contact</a>
-      <a href="contact.html" class="nav-book"><span>Book Consultation</span></a>
+  <div class="n-inner">
+    <a href="index.html" class="n-logo" aria-label="GlowCraft Studio home">Glow<em>Craft</em></a>
+    <div class="n-links" role="menubar">
+      <a href="index.html" class="n-link" role="menuitem">Home</a>
+      <a href="about.html" class="n-link" role="menuitem">About</a>
+      <a href="contact.html" class="n-link" role="menuitem">Contact</a>
+      <a href="contact.html" class="n-cta"><span>Book Consultation</span></a>
     </div>
-    <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+    <button class="burger" aria-label="Toggle menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
   </div>
 </nav>
 
-<!-- Mobile Drawer -->
-<div class="drawer-overlay" aria-hidden="true"></div>
-<div class="mobile-drawer" role="dialog" aria-label="Navigation" aria-modal="true">
-  <a href="index.html" class="drawer-link">Home</a>
-  <a href="about.html" class="drawer-link">About</a>
-  <a href="contact.html" class="drawer-link">Contact</a>
-  <a href="contact.html" class="btn btn-ghost" style="margin-top:12px"><span class="btn-text">Book Consultation</span></a>
-</div>
+<div class="drawer-bg" aria-hidden="true"></div>
+<nav class="nav-drawer" aria-label="Mobile navigation">
+  <a href="index.html" class="d-link">Home</a>
+  <a href="about.html" class="d-link">About</a>
+  <a href="contact.html" class="d-link">Contact</a>
+  <a href="contact.html" class="btn btn-outline" style="margin-top:8px"><span class="btn-text">Book Consultation</span></a>
+</nav>
 
-<!-- ═══════════════════════════════════
-     HERO
-═══════════════════════════════════ -->
-<section class="hero" aria-label="Hero section">
+<!-- ══════════════════ HERO ══════════════════ -->
+<section class="hero" aria-label="Hero">
   <div class="hero-bg" role="img" aria-label="Luxury gold jewelry macro photograph"></div>
-  <div class="hero-overlay" aria-hidden="true"></div>
-  <div class="hero-lines" aria-hidden="true"></div>
+  <div class="hero-vignette" aria-hidden="true"></div>
+  <div class="hero-grain"   aria-hidden="true"></div>
+  <div class="hero-line"    aria-hidden="true"></div>
+  <div class="hero-line"    aria-hidden="true"></div>
 
   <div class="hero-content">
-    <div class="hero-eyebrow">Handcrafted with Soul · Est. 2018</div>
-    <h1 class="hero-title">
-      Where Artistry
-      <em>Meets Gold</em>
-    </h1>
-    <p class="hero-sub">Each piece is a story — shaped by hand, kissed by fire, worn for life. Uncompromising craft for the discerning few.</p>
-    <div class="hero-actions">
-      <a href="#products" class="btn btn-gold">
-        <span class="btn-text">View Collection</span>
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-      </a>
-      <a href="about.html" class="btn btn-white"><span class="btn-text">Our Story</span></a>
+    <div class="hero-inner">
+      <div class="h-eyebrow">Handcrafted with Soul &nbsp;·&nbsp; Est. 2018</div>
+      <h1 class="hero-title">
+        <span>Where</span>
+        <em>Artistry</em>
+        <span>Meets Gold</span>
+      </h1>
+      <p class="hero-sub">Each piece is a story — shaped by hand, kissed by fire, worn for life. Uncompromising craft for the discerning few.</p>
+      <div class="hero-actions">
+        <a href="#collection" class="btn btn-gold">
+          <span class="btn-text">View Collection</span>
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+        <a href="about.html" class="btn btn-white-out"><span class="btn-text">Our Story</span></a>
+      </div>
     </div>
   </div>
 
-  <!-- Stats panel -->
   <div class="hero-stats" aria-label="Studio statistics">
-    <div class="hero-stat">
-      <div class="hero-stat-num"><span data-count="3200">0</span>+</div>
-      <div class="hero-stat-lbl">Pieces Crafted</div>
+    <div class="h-stat">
+      <div class="h-stat-n"><span data-count="3200">0</span>+</div>
+      <div class="h-stat-l">Pieces Crafted</div>
     </div>
-    <div class="hero-stat">
-      <div class="hero-stat-num"><span data-count="6">0</span></div>
-      <div class="hero-stat-lbl">Years of Craft</div>
+    <div class="h-stat">
+      <div class="h-stat-n"><span data-count="6">0</span></div>
+      <div class="h-stat-l">Years of Craft</div>
     </div>
-    <div class="hero-stat">
-      <div class="hero-stat-num"><span data-count="8">0</span></div>
-      <div class="hero-stat-lbl">Master Artisans</div>
+    <div class="h-stat">
+      <div class="h-stat-n"><span data-count="8">0</span></div>
+      <div class="h-stat-l">Master Artisans</div>
     </div>
   </div>
 
-  <!-- Scroll -->
   <div class="hero-scroll" aria-hidden="true">
-    <div class="hero-scroll-line"></div>
-    <span class="hero-scroll-text">Scroll</span>
+    <div class="scroll-line"></div>
+    <span class="scroll-txt">Scroll</span>
   </div>
 </section>
 
-<!-- ═══════════════════════════════════
-     MARQUEE
-═══════════════════════════════════ -->
-<div class="marquee-strip" aria-hidden="true">
-  <div class="marquee-track">
-    <span class="marquee-item">Handcrafted Rings<span class="marquee-sep"></span></span>
-    <span class="marquee-item">Artisan Necklaces<span class="marquee-sep"></span></span>
-    <span class="marquee-item">Bridal Collections<span class="marquee-sep"></span></span>
-    <span class="marquee-item">Bespoke Earrings<span class="marquee-sep"></span></span>
-    <span class="marquee-item">18K Gold Craftsmanship<span class="marquee-sep"></span></span>
-    <span class="marquee-item">Sterling Silver<span class="marquee-sep"></span></span>
-    <span class="marquee-item">Limited Editions<span class="marquee-sep"></span></span>
-    <span class="marquee-item">Conflict-Free Diamonds<span class="marquee-sep"></span></span>
+<!-- ══════════════════ TICKER ══════════════════ -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-track">
+    <span class="ticker-item">Handcrafted Rings<span class="t-dot"></span></span>
+    <span class="ticker-item">Artisan Necklaces<span class="t-dot"></span></span>
+    <span class="ticker-item">Bridal Collections<span class="t-dot"></span></span>
+    <span class="ticker-item">Bespoke Earrings<span class="t-dot"></span></span>
+    <span class="ticker-item">18K Gold Craftsmanship<span class="t-dot"></span></span>
+    <span class="ticker-item">Sterling Silver Pieces<span class="t-dot"></span></span>
+    <span class="ticker-item">Limited Editions<span class="t-dot"></span></span>
+    <span class="ticker-item">Conflict-Free Diamonds<span class="t-dot"></span></span>
   </div>
 </div>
 
-<!-- ═══════════════════════════════════
-     FEATURED PRODUCTS
-═══════════════════════════════════ -->
-<section class="section bg-dark" id="products" aria-labelledby="products-heading">
-  <div class="container">
+<!-- ══════════════════ EDITORIAL COLLECTION ══════════════════ -->
+<section class="section deep" id="collection" aria-labelledby="col-heading">
+  <div class="wrap">
     <div class="products-header">
       <div>
-        <span class="eyebrow" data-reveal>Featured Collection</span>
-        <h2 class="display-title" id="products-heading" data-reveal data-delay="1">Crafted to<br>be Remembered</h2>
+        <span class="label" data-r="fade">Featured Collection</span>
+        <h2 class="h-display" id="col-heading" data-r="up" data-d="1">Crafted to<br>be Remembered</h2>
       </div>
-      <a href="#" class="products-view-all" data-reveal data-delay="2">View all pieces</a>
+      <a href="#" class="see-all" data-r="fade" data-d="2">View all pieces</a>
     </div>
 
-    <div class="products-grid">
+    <div class="ed-grid">
 
-      <!-- Card 1 -->
-      <article class="product-card" data-reveal data-delay="1" aria-label="Aurora Solitaire Ring">
-        <div class="product-img">
-          <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=700&q=80" alt="Aurora Solitaire Ring — 18K Gold" loading="lazy"/>
-          <span class="product-badge">New</span>
-          <div class="product-overlay" aria-hidden="true">
-            <div class="product-overlay-btns">
-              <button class="product-overlay-btn">Quick View</button>
-              <button class="product-overlay-btn">Add to Bag</button>
-            </div>
-          </div>
-        </div>
-        <div class="product-info">
-          <p class="product-cat">18K Gold · Ring</p>
-          <h3 class="product-name">Aurora Solitaire Ring</h3>
-          <div class="product-bottom">
-            <span class="product-price">₹ 28,500</span>
-            <button class="product-wish" aria-label="Add to wishlist">
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+      <!-- FEATURE CARD -->
+      <article class="ed-card feature" data-r="up" data-d="1" aria-label="Aurora Solitaire Ring">
+        <img class="ed-img" src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800&q=85" alt="Aurora Solitaire Ring — 18K Gold" loading="lazy"/>
+        <div class="ed-overlay">
+          <span class="ed-badge">New</span>
+          <p class="ed-cat">18K Gold · Ring</p>
+          <h3 class="ed-name">Aurora Solitaire Ring</h3>
+          <p class="ed-price">₹ 28,500</p>
+          <div class="ed-actions">
+            <button class="ed-btn">Quick View</button>
+            <button class="ed-btn">Add to Bag</button>
+            <button class="ed-wish" aria-label="Add to wishlist">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
             </button>
           </div>
         </div>
       </article>
 
-      <!-- Card 2 -->
-      <article class="product-card" data-reveal data-delay="2" aria-label="Celestial Drop Earrings">
-        <div class="product-img">
-          <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=700&q=80" alt="Celestial Drop Earrings — Sterling Silver" loading="lazy"/>
-          <div class="product-overlay" aria-hidden="true">
-            <div class="product-overlay-btns">
-              <button class="product-overlay-btn">Quick View</button>
-              <button class="product-overlay-btn">Add to Bag</button>
-            </div>
-          </div>
-        </div>
-        <div class="product-info">
-          <p class="product-cat">Sterling Silver · Earrings</p>
-          <h3 class="product-name">Celestial Drop Earrings</h3>
-          <div class="product-bottom">
-            <span class="product-price"><span class="was">₹ 14,000</span>₹ 11,200</span>
-            <button class="product-wish" aria-label="Add to wishlist">
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+      <!-- TOP RIGHT -->
+      <article class="ed-card" data-r="up" data-d="2" aria-label="Celestial Drop Earrings">
+        <img class="ed-img" src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=700&q=85" alt="Celestial Drop Earrings" loading="lazy"/>
+        <div class="ed-overlay">
+          <p class="ed-cat">Sterling Silver · Earrings</p>
+          <h3 class="ed-name">Celestial Drop Earrings</h3>
+          <p class="ed-price"><span class="was">₹14,000</span>₹ 11,200</p>
+          <div class="ed-actions">
+            <button class="ed-btn">Quick View</button>
+            <button class="ed-btn">Add to Bag</button>
+            <button class="ed-wish" aria-label="Add to wishlist">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
             </button>
           </div>
         </div>
       </article>
 
-      <!-- Card 3 -->
-      <article class="product-card" data-reveal data-delay="3" aria-label="Luminary Pendant Necklace">
-        <div class="product-img">
-          <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=700&q=80" alt="Luminary Pendant Necklace — Gold Vermeil" loading="lazy"/>
-          <span class="product-badge">Bestseller</span>
-          <div class="product-overlay" aria-hidden="true">
-            <div class="product-overlay-btns">
-              <button class="product-overlay-btn">Quick View</button>
-              <button class="product-overlay-btn">Add to Bag</button>
-            </div>
-          </div>
-        </div>
-        <div class="product-info">
-          <p class="product-cat">Gold Vermeil · Necklace</p>
-          <h3 class="product-name">Luminary Pendant Necklace</h3>
-          <div class="product-bottom">
-            <span class="product-price">₹ 19,800</span>
-            <button class="product-wish" aria-label="Add to wishlist">
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+      <!-- BOTTOM RIGHT — WIDE -->
+      <article class="ed-card wide" data-r="up" data-d="3" aria-label="Luminary Pendant Necklace">
+        <img class="ed-img" src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=900&q=85" alt="Luminary Pendant Necklace" loading="lazy"/>
+        <div class="ed-overlay">
+          <span class="ed-badge">Bestseller</span>
+          <p class="ed-cat">Gold Vermeil · Necklace</p>
+          <h3 class="ed-name">Luminary Pendant Necklace</h3>
+          <p class="ed-price">₹ 19,800</p>
+          <div class="ed-actions">
+            <button class="ed-btn">Quick View</button>
+            <button class="ed-btn">Add to Bag</button>
+            <button class="ed-wish" aria-label="Add to wishlist">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
             </button>
           </div>
         </div>
       </article>
 
-      <!-- Card 4 -->
-      <article class="product-card" data-reveal data-delay="1" aria-label="Heirloom Bangle Set">
-        <div class="product-img">
-          <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=700&q=80" alt="Heirloom Bangle Set — 22K Gold" loading="lazy"/>
-          <div class="product-overlay" aria-hidden="true">
-            <div class="product-overlay-btns">
-              <button class="product-overlay-btn">Quick View</button>
-              <button class="product-overlay-btn">Add to Bag</button>
-            </div>
-          </div>
-        </div>
-        <div class="product-info">
-          <p class="product-cat">22K Gold · Bangles</p>
-          <h3 class="product-name">Heirloom Bangle Set</h3>
-          <div class="product-bottom">
-            <span class="product-price">₹ 54,000</span>
-            <button class="product-wish" aria-label="Add to wishlist">
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
-            </button>
+    </div><!-- /ed-grid -->
+
+    <!-- Second row: 3 equal cards -->
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:3px;margin-top:3px">
+      <article class="ed-card" data-r="up" data-d="1" aria-label="Heirloom Bangle Set">
+        <img class="ed-img" src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=600&q=80" alt="Heirloom Bangle Set" loading="lazy"/>
+        <div class="ed-overlay">
+          <p class="ed-cat">22K Gold · Bangles</p>
+          <h3 class="ed-name">Heirloom Bangle Set</h3>
+          <p class="ed-price">₹ 54,000</p>
+          <div class="ed-actions">
+            <button class="ed-btn">Quick View</button>
+            <button class="ed-btn">Add to Bag</button>
+            <button class="ed-wish" aria-label="Add to wishlist"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
           </div>
         </div>
       </article>
-
-      <!-- Card 5 -->
-      <article class="product-card" data-reveal data-delay="2" aria-label="Constellation Bracelet">
-        <div class="product-img">
-          <img src="https://images.unsplash.com/photo-1573408301185-9519f94816b5?w=700&q=80" alt="Constellation Bracelet — Silver" loading="lazy"/>
-          <span class="product-badge">Limited</span>
-          <div class="product-overlay" aria-hidden="true">
-            <div class="product-overlay-btns">
-              <button class="product-overlay-btn">Quick View</button>
-              <button class="product-overlay-btn">Add to Bag</button>
-            </div>
-          </div>
-        </div>
-        <div class="product-info">
-          <p class="product-cat">Silver · Bracelet</p>
-          <h3 class="product-name">Constellation Bracelet</h3>
-          <div class="product-bottom">
-            <span class="product-price">₹ 16,500</span>
-            <button class="product-wish" aria-label="Add to wishlist">
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
-            </button>
+      <article class="ed-card" data-r="up" data-d="2" aria-label="Constellation Bracelet">
+        <img class="ed-img" src="https://images.unsplash.com/photo-1573408301185-9519f94816b5?w=600&q=80" alt="Constellation Bracelet" loading="lazy"/>
+        <div class="ed-overlay">
+          <span class="ed-badge">Limited</span>
+          <p class="ed-cat">Silver · Bracelet</p>
+          <h3 class="ed-name">Constellation Bracelet</h3>
+          <p class="ed-price">₹ 16,500</p>
+          <div class="ed-actions">
+            <button class="ed-btn">Quick View</button>
+            <button class="ed-btn">Add to Bag</button>
+            <button class="ed-wish" aria-label="Add to wishlist"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
           </div>
         </div>
       </article>
-
-      <!-- Card 6 -->
-      <article class="product-card" data-reveal data-delay="3" aria-label="Bridal Chandelier Earrings">
-        <div class="product-img">
-          <img src="https://images.unsplash.com/photo-1602173574767-37ac01994b2a?w=700&q=80" alt="Bridal Chandelier Earrings — Gold" loading="lazy"/>
-          <div class="product-overlay" aria-hidden="true">
-            <div class="product-overlay-btns">
-              <button class="product-overlay-btn">Quick View</button>
-              <button class="product-overlay-btn">Add to Bag</button>
-            </div>
-          </div>
-        </div>
-        <div class="product-info">
-          <p class="product-cat">Gold · Bridal Earrings</p>
-          <h3 class="product-name">Bridal Chandelier Earrings</h3>
-          <div class="product-bottom">
-            <span class="product-price">₹ 38,200</span>
-            <button class="product-wish" aria-label="Add to wishlist">
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
-            </button>
+      <article class="ed-card" data-r="up" data-d="3" aria-label="Bridal Chandelier Earrings">
+        <img class="ed-img" src="https://images.unsplash.com/photo-1602173574767-37ac01994b2a?w=600&q=80" alt="Bridal Chandelier Earrings" loading="lazy"/>
+        <div class="ed-overlay">
+          <p class="ed-cat">Gold · Bridal Earrings</p>
+          <h3 class="ed-name">Bridal Chandelier Earrings</h3>
+          <p class="ed-price">₹ 38,200</p>
+          <div class="ed-actions">
+            <button class="ed-btn">Quick View</button>
+            <button class="ed-btn">Add to Bag</button>
+            <button class="ed-wish" aria-label="Add to wishlist"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
           </div>
         </div>
       </article>
+    </div>
 
-    </div><!-- /products-grid -->
   </div>
 </section>
 
-<!-- ═══════════════════════════════════
-     BRAND VALUES
-═══════════════════════════════════ -->
-<section class="section bg-darker" aria-labelledby="values-heading">
-  <div class="container">
-    <div style="text-align:center" data-reveal>
-      <span class="eyebrow" style="justify-content:center">Our Promise</span>
-      <h2 class="display-title" id="values-heading" style="text-align:center;margin:0 auto">The GlowCraft Difference</h2>
-      <div class="gold-line center"></div>
-      <p class="section-body" style="margin:0 auto;text-align:center">Every piece is a testament to uncompromising craft, enduring beauty, and the art of fine jewelry.</p>
+<!-- ══════════════════ VALUES ══════════════════ -->
+<section class="section black" aria-labelledby="val-heading">
+  <div class="wrap">
+    <div class="values-intro" data-r="fade">
+      <span class="label" style="justify-content:center">Our Promise</span>
+      <h2 class="h-display" id="val-heading" style="text-align:center">The GlowCraft Difference</h2>
+      <div class="rule c"></div>
+      <p class="body-text" style="margin:0 auto;text-align:center">Every piece is a testament to uncompromising craft, enduring beauty, and the art of fine jewelry.</p>
     </div>
-
-    <div class="values-grid">
-      <div class="value-card" data-num="01" data-reveal data-delay="1">
-        <div class="value-icon" aria-hidden="true">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+    <div class="values-list">
+      <div class="val-item" data-r="up" data-d="1">
+        <div class="val-num" aria-hidden="true">01</div>
+        <div class="val-icon" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
         </div>
-        <h3 class="value-title">Artisan Craft</h3>
-        <p class="value-body">Every piece shaped entirely by hand, one at a time, by master artisans with over two decades of experience in the jewelry arts.</p>
+        <h3 class="val-title">Artisan Craft</h3>
+        <p class="val-body">Every piece shaped entirely by hand, one at a time, by master artisans with over two decades of experience in the jewelry arts.</p>
       </div>
-      <div class="value-card" data-num="02" data-reveal data-delay="2">
-        <div class="value-icon" aria-hidden="true">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="6"/><path d="M8 14l-4 6m16-6l-4 6m-8 0h8"/></svg>
+      <div class="val-item" data-r="up" data-d="2">
+        <div class="val-num" aria-hidden="true">02</div>
+        <div class="val-icon" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="6"/><path d="M8 14l-4 6m16-6l-4 6m-8 0h8"/></svg>
         </div>
-        <h3 class="value-title">Premium Materials</h3>
-        <p class="value-body">Ethically certified 18K and 22K gold, conflict-free diamonds, and rare natural gemstones — sourced with conscience and care.</p>
+        <h3 class="val-title">Premium Materials</h3>
+        <p class="val-body">Ethically certified 18K and 22K gold, conflict-free diamonds, and rare natural gemstones — sourced with conscience and care.</p>
       </div>
-      <div class="value-card" data-num="03" data-reveal data-delay="3">
-        <div class="value-icon" aria-hidden="true">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+      <div class="val-item" data-r="up" data-d="3">
+        <div class="val-num" aria-hidden="true">03</div>
+        <div class="val-icon" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
         </div>
-        <h3 class="value-title">Lifetime Care</h3>
-        <p class="value-body">Complimentary polishing, resizing, and lifetime maintenance for every GlowCraft piece — our commitment never ends at purchase.</p>
+        <h3 class="val-title">Lifetime Care</h3>
+        <p class="val-body">Complimentary polishing, resizing, and lifetime maintenance for every GlowCraft piece — our commitment never ends at purchase.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ═══════════════════════════════════
-     STORY / SPLIT
-═══════════════════════════════════ -->
-<section class="section bg-dark" aria-labelledby="story-heading">
-  <div class="container">
-    <div class="story-grid">
-      <div class="story-img-wrap" data-reveal="left">
-        <img class="story-img-main" src="https://images.unsplash.com/photo-1584448097764-374f81551427?w=900&q=80" alt="Artisan crafting a jewelry piece at GlowCraft Studio" loading="lazy"/>
-        <div class="story-img-accent" aria-hidden="true"></div>
-        <div class="story-badge" aria-label="Over 3200 pieces crafted">
-          <div class="story-badge-num" data-count="3200">0</div>
-          <div class="story-badge-lbl">Pieces Crafted</div>
-        </div>
+<!-- ══════════════════ STORY SPLIT ══════════════════ -->
+<section aria-labelledby="story-heading">
+  <div class="split">
+    <div class="split-img" data-r="left">
+      <img src="https://images.unsplash.com/photo-1584448097764-374f81551427?w=900&q=85" alt="Artisan crafting a jewelry piece" loading="lazy"/>
+      <div class="split-img-overlay" aria-hidden="true"></div>
+      <div class="split-badge" aria-label="Over 3200 pieces crafted">
+        <div class="split-badge-n" data-count="3200">0</div>
+        <div class="split-badge-l">Pieces Crafted</div>
       </div>
-      <div data-reveal="right">
-        <span class="eyebrow">A Glimpse Into Our World</span>
-        <h2 class="display-title" id="story-heading">Born from Passion,<br>Worn with Pride</h2>
-        <div class="gold-line"></div>
-        <p class="story-body">GlowCraft Studio was born in a small Mumbai workshop where our founder, Priya Mehra, first discovered the transformative power of handcrafted gold. What began as a personal obsession became a studio revered for its quiet luxury.</p>
-        <p class="story-body">Our pieces are not mass-produced. They are deliberate, emotional, and alive — crafted with the knowledge that they will be worn on the most meaningful days of someone's life.</p>
-        <a href="about.html" class="btn btn-ghost" style="margin-top:12px"><span class="btn-text">Discover Our Story</span></a>
-        <span class="story-signature">— Priya Mehra, Founder</span>
-      </div>
+    </div>
+    <div class="split-content" data-r="right">
+      <span class="label">Born from Passion</span>
+      <h2 class="h-display" id="story-heading">A Workshop,<br>A Dream,<br><em>A Legacy</em></h2>
+      <div class="rule"></div>
+      <p class="split-body">GlowCraft Studio was born in a small Mumbai workshop where our founder, Priya Mehra, first discovered the transformative power of handcrafted gold. What began as a personal obsession evolved into a studio revered for quiet luxury.</p>
+      <p class="split-body">Our pieces are not mass-produced. They are deliberate, emotional, and alive — crafted with the knowledge that they will be worn on the most meaningful days of someone's life.</p>
+      <a href="about.html" class="btn btn-outline" style="margin-top:8px"><span class="btn-text">Discover Our Story</span></a>
+      <span class="split-sig">— Priya Mehra, Founder</span>
     </div>
   </div>
 </section>
 
-<!-- ═══════════════════════════════════
-     NEWSLETTER
-═══════════════════════════════════ -->
-<section class="newsletter-section" aria-labelledby="newsletter-heading">
-  <div class="container" style="position:relative;z-index:1">
-    <span class="eyebrow" style="justify-content:center" data-reveal>Join the Circle</span>
-    <h2 class="display-title" id="newsletter-heading" style="text-align:center" data-reveal data-delay="1">First to Glow</h2>
-    <p class="section-body" style="margin:16px auto 0;text-align:center" data-reveal data-delay="2">Be first to discover new collections, private sales, and studio stories. No noise — only gold.</p>
-    <form class="newsletter-form" novalidate aria-label="Newsletter signup" data-reveal data-delay="3">
+<!-- ══════════════════ NEWSLETTER ══════════════════ -->
+<section class="nl-section" aria-labelledby="nl-heading">
+  <div class="nl-bg-text" aria-hidden="true">GLOW</div>
+  <div class="wrap" style="position:relative;z-index:1">
+    <span class="label" style="justify-content:center" data-r="fade">Join the Circle</span>
+    <h2 class="h-display" id="nl-heading" style="text-align:center" data-r="up" data-d="1">First to Glow</h2>
+    <p class="body-text" style="margin:14px auto 0;text-align:center" data-r="up" data-d="2">Be first to discover new collections, private sales, and studio stories.</p>
+    <form class="nl-form" novalidate data-r="up" data-d="3">
       <label for="nl-email" class="sr-only">Email address</label>
-      <input type="email" id="nl-email" class="newsletter-input" placeholder="Enter your email address" required autocomplete="email"/>
-      <button type="submit" class="newsletter-btn">Subscribe</button>
+      <input type="email" id="nl-email" class="nl-input" placeholder="Enter your email address" required autocomplete="email"/>
+      <button type="submit" class="nl-btn">Subscribe</button>
     </form>
-    <p class="newsletter-note" data-reveal data-delay="4">We respect your privacy. Unsubscribe at any time.</p>
+    <p class="nl-note" data-r="fade" data-d="4">We respect your privacy. Unsubscribe at any time.</p>
   </div>
 </section>
 
-<!-- ═══════════════════════════════════
-     FOOTER
-═══════════════════════════════════ -->
+<!-- ══════════════════ FOOTER ══════════════════ -->
 <footer role="contentinfo">
-  <div class="container">
+  <div class="wrap">
     <div class="footer-grid">
-
       <div>
-        <a href="index.html" class="footer-logo">Glow<span class="logo-accent">Craft</span></a>
-        <p class="footer-desc">Handcrafted luxury jewelry born in Mumbai, worn across the world. Each piece carries the fingerprints of its maker.</p>
-        <div class="footer-socials" aria-label="Social media links">
-          <a href="#" class="footer-social" aria-label="Instagram">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/></svg>
-          </a>
-          <a href="#" class="footer-social" aria-label="Pinterest">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.24 2.65 7.86 6.39 9.29-.09-.78-.17-1.98.03-2.82.19-.77 1.26-5.33 1.26-5.33s-.32-.64-.32-1.59c0-1.49.86-2.6 1.93-2.6.91 0 1.35.68 1.35 1.5 0 .91-.58 2.28-.88 3.55-.25 1.06.53 1.92 1.57 1.92 1.88 0 3.15-2.4 3.15-5.24 0-2.16-1.46-3.78-4.1-3.78-2.99 0-4.85 2.23-4.85 4.72 0 .86.25 1.46.64 1.93.18.21.2.3.14.55-.05.17-.15.59-.19.75-.06.25-.25.34-.46.24-1.34-.55-1.96-2.02-1.96-3.67 0-2.73 2.32-6.01 6.93-6.01 3.71 0 6.16 2.69 6.16 5.58 0 3.81-2.11 6.67-5.22 6.67-1.04 0-2.03-.56-2.36-1.21l-.65 2.49c-.24.9-.87 2.03-1.29 2.72C10.68 21.94 11.33 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2z"/></svg>
-          </a>
-          <a href="#" class="footer-social" aria-label="Facebook">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
-          </a>
-          <a href="#" class="footer-social" aria-label="YouTube">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="currentColor" stroke="none"/></svg>
-          </a>
+        <a href="index.html" class="f-logo">Glow<em>Craft</em></a>
+        <p class="f-desc">Handcrafted luxury jewelry born in Mumbai, worn across the world. Each piece carries the fingerprints of its maker.</p>
+        <div class="f-socials" aria-label="Social media links">
+          <a href="#" class="f-soc" aria-label="Instagram"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/></svg></a>
+          <a href="#" class="f-soc" aria-label="Pinterest"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.24 2.65 7.86 6.39 9.29-.09-.78-.17-1.98.03-2.82.19-.77 1.26-5.33 1.26-5.33s-.32-.64-.32-1.59c0-1.49.86-2.6 1.93-2.6.91 0 1.35.68 1.35 1.5 0 .91-.58 2.28-.88 3.55-.25 1.06.53 1.92 1.57 1.92 1.88 0 3.15-2.4 3.15-5.24 0-2.16-1.46-3.78-4.1-3.78-2.99 0-4.85 2.23-4.85 4.72 0 .86.25 1.46.64 1.93.18.21.2.3.14.55-.05.17-.15.59-.19.75-.06.25-.25.34-.46.24-1.34-.55-1.96-2.02-1.96-3.67 0-2.73 2.32-6.01 6.93-6.01 3.71 0 6.16 2.69 6.16 5.58 0 3.81-2.11 6.67-5.22 6.67-1.04 0-2.03-.56-2.36-1.21l-.65 2.49c-.24.9-.87 2.03-1.29 2.72C10.68 21.94 11.33 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2z"/></svg></a>
+          <a href="#" class="f-soc" aria-label="Facebook"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+          <a href="#" class="f-soc" aria-label="YouTube"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="currentColor" stroke="none"/></svg></a>
         </div>
       </div>
-
       <div>
-        <h4 class="footer-col-title">Collections</h4>
-        <nav class="footer-links" aria-label="Collections">
-          <a href="#" class="footer-link">Rings</a>
-          <a href="#" class="footer-link">Necklaces</a>
-          <a href="#" class="footer-link">Earrings</a>
-          <a href="#" class="footer-link">Bracelets</a>
-          <a href="#" class="footer-link">Bridal</a>
-          <a href="#" class="footer-link">Limited Editions</a>
+        <h4 class="f-col-title">Collections</h4>
+        <nav class="f-links" aria-label="Collections">
+          <a href="#" class="f-link">Rings</a>
+          <a href="#" class="f-link">Necklaces</a>
+          <a href="#" class="f-link">Earrings</a>
+          <a href="#" class="f-link">Bracelets</a>
+          <a href="#" class="f-link">Bridal</a>
+          <a href="#" class="f-link">Limited Editions</a>
         </nav>
       </div>
-
       <div>
-        <h4 class="footer-col-title">Studio</h4>
-        <nav class="footer-links" aria-label="Studio pages">
-          <a href="about.html" class="footer-link">Our Story</a>
-          <a href="about.html" class="footer-link">The Craft</a>
-          <a href="contact.html" class="footer-link">Bespoke Orders</a>
-          <a href="contact.html" class="footer-link">Care Guide</a>
-          <a href="#" class="footer-link">Press</a>
+        <h4 class="f-col-title">Studio</h4>
+        <nav class="f-links" aria-label="Studio pages">
+          <a href="about.html" class="f-link">Our Story</a>
+          <a href="about.html" class="f-link">The Craft</a>
+          <a href="contact.html" class="f-link">Bespoke Orders</a>
+          <a href="contact.html" class="f-link">Care Guide</a>
+          <a href="#" class="f-link">Press</a>
         </nav>
       </div>
-
       <div>
-        <h4 class="footer-col-title">Contact</h4>
-        <div class="footer-ci">
-          <div class="footer-ci-lbl">Studio</div>
-          <div class="footer-ci-val">14 Gold Street, Bandra West, Mumbai 400050</div>
-        </div>
-        <div class="footer-ci">
-          <div class="footer-ci-lbl">Email</div>
-          <div class="footer-ci-val">hello@glowcraftstudio.com</div>
-        </div>
-        <div class="footer-ci">
-          <div class="footer-ci-lbl">Hours</div>
-          <div class="footer-ci-val">Tue–Sat, 11am–7pm</div>
-        </div>
+        <h4 class="f-col-title">Contact</h4>
+        <div class="f-ci"><div class="f-ci-l">Studio</div><div class="f-ci-v">14 Gold Street, Bandra West, Mumbai 400050</div></div>
+        <div class="f-ci"><div class="f-ci-l">Email</div><div class="f-ci-v">hello@glowcraftstudio.com</div></div>
+        <div class="f-ci"><div class="f-ci-l">Hours</div><div class="f-ci-v">Tue–Sat, 11am–7pm</div></div>
       </div>
-
-    </div><!-- /footer-grid -->
-
-    <div class="footer-bottom">
-      <p class="footer-copy">&copy; 2024 GlowCraft Studio. All rights reserved.</p>
-      <div class="footer-legal">
-        <a href="#">Privacy Policy</a>
-        <a href="#">Terms of Service</a>
-        <a href="#">Shipping</a>
-      </div>
+    </div>
+    <div class="footer-btm">
+      <p class="f-copy">&copy; 2024 GlowCraft Studio. All rights reserved.</p>
+      <div class="f-legal"><a href="#">Privacy</a><a href="#">Terms</a><a href="#">Shipping</a></div>
     </div>
   </div>
 </footer>
